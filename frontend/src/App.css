@@ -1,0 +1,187 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.headline {
+  box-shadow:  0 3px 5px grey;
+  display: flex;
+  align-items: center;
+  max-height: 105px;
+  font-size: 1.25em;
+}
+.app-title {
+  width: auto;
+  height: 105px;
+  max-height: 105px;
+}
+nav {
+  width: 70%;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navLink {
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  color: black;
+}
+.navLink:hover {
+  cursor: pointer;
+  border-bottom: 2px solid orange;
+}
+.hometab {
+  padding: 36px 0px;
+  text-align: center;
+}
+.main-wrapper {
+  position: relative;
+  top: 50px;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 0 5px grey;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.inner-main {
+  padding: 15px 0px;
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+.recipe-button {
+  text-align: center;
+  color: rgb(138, 207, 35);
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 0 5px grey;
+  padding: 5px;
+  width: 165px;
+  transition: 0.25s;
+}
+.recipe-button:hover {
+  background-color: rgb(138, 207, 35);
+  color: whitesmoke;
+  cursor: pointer;
+}
+.underline {
+  text-decoration: underline;
+}
+.form-section {
+  margin: 15px 0px;
+}
+input {
+  width: 40%;
+}
+form select {
+  font-size: 18px;
+  width: 25%;
+}
+.flex-recipes {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+}
+.recipe-tab-outer {
+  background-color: rgb(184, 231, 141);
+  border-radius: 10px;
+  box-shadow: 0 0 8px grey;
+  margin: 24px 0px;
+  transition: 0.75s ease-in-out;
+}
+.delete {
+  margin: 8px;
+  border: 1px solid grey;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.delete:hover {
+  cursor: pointer;
+}
+.new-recipe-tab {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.side {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 18px;
+}
+#normal-font {
+  font-size: 1em;
+}
+.recipePreview {
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  margin-bottom: 24px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1.25em;
+  box-shadow: 0 0 5px black;
+}
+.no-dec {
+  text-decoration: none;
+  color: black;
+}
+.recipePreview p {
+  text-align: center;
+}
+.calculate-button {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  color: rgb(138, 207, 35);
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 5px grey;
+  transition: 0.25s;
+}
+.calculate-button:hover {
+  background-color: rgb(138, 207, 35);
+  border: 2px solid rgb(138, 207, 35);
+  color: whitesmoke;
+  cursor: pointer;
+}
+.comma {
+  width: 70%;
+}
