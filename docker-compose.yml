@@ -19,7 +19,7 @@ services:
   database:
     image: postgres
     volumes:
-      - database:/var/lib/postgesql/data
+      - ./backend/database:/var/lib/postgesql/data
     restart: always
     environment:
       POSTGRES_DB: mycro_brewery
